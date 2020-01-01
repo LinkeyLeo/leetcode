@@ -14,58 +14,64 @@ public:
         {
             return 0;
         }
-        map<int, set<int>> reachable;
-        int totalroutes = routes.size();
-        int totalstations;
-        int s0, s1;
-        for (int i = 0; i < totalroutes; i++)
+        int routetotal = routes.size();
+        int taken[500];
+        set<int> visited;
+        set<int> stops;
+        set<int> transfer;
+        vector<set<int>> sorted;
+        for (int i = 0; i < routetotal; i++)
         {
-            vector<int> stations = routes[i];
-            totalstations = stations.size();
-            for (int j = 0; j < totalstations; j++)
+            taken[i] = false;
+            sorted.insert(sorted.begin(), set<int>(routes[i].begin(), routes[i].end()));
+            for (int stop : routes[i])
             {
-                s0 = stations[j];
-                for (int k = j + 1; k < totalstations; k++)
+                if (stops.find(stop) == stops.end())
                 {
-                    s1 = stations[k];
-                    if (reachable.find(s0) == reachable.end())
-                    {
-                        reachable.insert({s0, set<int>()});
-                    }
-                    if (reachable.find(s1) == reachable.end())
-                    {
-                        reachable.insert({s1, set<int>()});
-                    }
-                    reachable[s0].insert(s1);
-                    reachable[s1].insert(s0);
+                    stops.insert(stop);
+                }
+                else
+                {
+                    transfer.insert(stop);
                 }
             }
         }
-        set<int> direct;
-        set<int> singlenext;
+        int count = 0;
+        set<int> current;
         set<int> next = {S};
-        int transfer = 0;
         while (!next.empty())
         {
-            direct.clear();
-            direct.insert(next.begin(), next.end());
+            count++;
+            current.clear();
+            current.insert(next.begin(), next.end());
             next.clear();
-            transfer++;
-            for (int directstation : direct)
+            for (int location : current)
             {
-                singlenext = reachable[directstation];
-                reachable.erase(directstation);
-                for (int nextstation : singlenext)
+                if (visited.find(location) == visited.end())
                 {
-                    if (nextstation == T)
+                    visited.insert(location);
+                    for (int i = 0; i < routetotal; i++)
                     {
-                        return transfer;
+                        if (!taken[i])
+                        {
+                            set<int> selectedroute(routes[i].begin(), routes[i].end());
+                            if (selectedroute.find(location) != selectedroute.end())
+                            {
+                                taken[i] = true;
+                                for (int stop : selectedroute)
+                                {
+                                    if (stop == T)
+                                    {
+                                        return count;
+                                    }
+                                    if (transfer.find(stop) != transfer.end())
+                                    {
+                                        next.insert(stop);
+                                    }
+                                }
+                            }
+                        }
                     }
-                    if (direct.find(nextstation) == direct.end())
-                    {
-                        next.insert(nextstation);
-                    }
-                    reachable[nextstation].erase(directstation);
                 }
             }
         }
