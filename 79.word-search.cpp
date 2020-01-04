@@ -19,16 +19,19 @@ public:
         vector<vector<bool>> used(row, vector<bool>(colume, false));
         stack<vector<int>> next;
         stack<vector<int>> back;
-        int last = word.size() - 1;
+        int last = word.size();
         for (int i = 0; i < row; i++)
         {
             for (int j = 0; j < colume; j++)
             {
-                next.push({0, i, j});
+                if (board[i][j] == word[0])
+                {
+                    next.push({1, i, j});
+                }
             }
         }
         vector<int> current;
-        int i, j, p = 0;
+        int i, j, p = 1;
         while (!next.empty())
         {
             current = next.top();
@@ -39,36 +42,33 @@ public:
                 back.pop();
                 p--;
             }
-            while (p < current[0])
+            if (p < current[0])
             {
                 used[i][j] = true;
                 back.push({i, j});
                 p++;
             }
+            if (p == last)
+            {
+                return true;
+            }
             i = current[1];
             j = current[2];
-            if (board[i][j] == word[p])
+            if (i > 0 && !used[i - 1][j] && board[i - 1][j] == word[p])
             {
-                if (p == last)
-                {
-                    return true;
-                }
-                if (i > 0 && !used[i - 1][j])
-                {
-                    next.push({p + 1, i - 1, j});
-                }
-                if (i < row - 1 && !used[i + 1][j])
-                {
-                    next.push({p + 1, i + 1, j});
-                }
-                if (j > 0 && !used[i][j - 1])
-                {
-                    next.push({p + 1, i, j - 1});
-                }
-                if (j < colume - 1 && !used[i][j + 1])
-                {
-                    next.push({p + 1, i, j + 1});
-                }
+                next.push({p + 1, i - 1, j});
+            }
+            if (i < row - 1 && !used[i + 1][j] && board[i + 1][j] == word[p])
+            {
+                next.push({p + 1, i + 1, j});
+            }
+            if (j > 0 && !used[i][j - 1] && board[i][j - 1] == word[p])
+            {
+                next.push({p + 1, i, j - 1});
+            }
+            if (j < colume - 1 && !used[i][j + 1] && board[i][j + 1] == word[p])
+            {
+                next.push({p + 1, i, j + 1});
             }
         }
         return false;
