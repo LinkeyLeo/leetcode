@@ -24,24 +24,24 @@ public:
     {
         for (int i = start; i < end; i++)
         {
-            if (cachemax[start][i].val == 0)
+            if (cachemax[i][start].val == 0)
             {
                 maximum(start, i);
             }
-            if (cachemin[i + 1][end].val == DBL_MAX)
+            if (cachemin[end][i + 1].val == DBL_MAX)
             {
                 minimum(i + 1, end);
             }
-            if (cachemax[start][i].val / cachemin[i + 1][end].val > cachemax[start][end].val)
+            if (cachemax[i][start].val / cachemin[end][i + 1].val > cachemax[end][start].val)
             {
-                cachemax[start][end].val = cachemax[start][i].val / cachemin[i + 1][end].val;
+                cachemax[end][start].val = cachemax[i][start].val / cachemin[end][i + 1].val;
                 if (i + 1 == end)
                 {
-                    cachemax[start][end].expression = cachemax[start][i].expression + "/" + cachemin[i + 1][end].expression;
+                    cachemax[end][start].expression = cachemax[i][start].expression + "/" + cachemin[end][i + 1].expression;
                 }
                 else
                 {
-                    cachemax[start][end].expression = cachemax[start][i].expression + "/" + "(" + cachemin[i + 1][end].expression + ")";
+                    cachemax[end][start].expression = cachemax[i][start].expression + "/" + "(" + cachemin[end][i + 1].expression + ")";
                 }
             }
         }
@@ -51,24 +51,24 @@ public:
     {
         for (int i = start; i < end; i++)
         {
-            if (cachemin[start][i].val == DBL_MAX)
+            if (cachemin[i][start].val == DBL_MAX)
             {
                 minimum(start, i);
             }
-            if (cachemax[i + 1][end].val == 0)
+            if (cachemax[end][i + 1].val == 0)
             {
                 maximum(i + 1, end);
             }
-            if (cachemin[start][i].val / cachemax[i + 1][end].val < cachemin[start][end].val)
+            if (cachemin[i][start].val / cachemax[end][i + 1].val < cachemin[end][start].val)
             {
-                cachemin[start][end].val = cachemin[start][i].val / cachemax[i + 1][end].val;
+                cachemin[end][start].val = cachemin[i][start].val / cachemax[end][i + 1].val;
                 if (i + 1 == end)
                 {
-                    cachemin[start][end].expression = cachemin[start][i].expression + "/" + cachemax[i + 1][end].expression;
+                    cachemin[end][start].expression = cachemin[i][start].expression + "/" + cachemax[end][i + 1].expression;
                 }
                 else
                 {
-                    cachemin[start][end].expression = cachemin[start][i].expression + "/" + "(" + cachemax[i + 1][end].expression + ")";
+                    cachemin[end][start].expression = cachemin[i][start].expression + "/" + "(" + cachemax[end][i + 1].expression + ")";
                 }
             }
         }
@@ -89,17 +89,17 @@ public:
             return to_string(nums[0]) + "/" + to_string(nums[1]);
             break;
         }
-        cachemax = vector<vector<step>>(last, vector<step>(last, step(0)));
-        cachemin = vector<vector<step>>(last, vector<step>(last, step(DBL_MAX)));
         for (int i = 0; i < last; i++)
         {
+            cachemax.push_back(vector<step>(i + 1, step(0)));
+            cachemin.push_back(vector<step>(i + 1, step(DBL_MAX)));
             cachemax[i][i].val = nums[i];
             cachemax[i][i].expression = to_string(nums[i]);
             cachemin[i][i].val = nums[i];
             cachemin[i][i].expression = to_string(nums[i]);
         }
         maximum(0, last - 1);
-        return cachemax[0][last - 1].expression;
+        return cachemax[last - 1][0].expression;
     }
 };
 // @lc code=end
