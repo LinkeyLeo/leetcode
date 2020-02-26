@@ -10,31 +10,26 @@ class Solution
 public:
     bool carPooling(vector<vector<int>> &trips, int capacity)
     {
-        map<short, pair<short, int>> info({{1000, {0, 0}}});
-        int required = 0;
-        for (vector<int> p : trips)
+        sort(trips.begin(), trips.end(), [](vector<int> a, vector<int> b) { return a[1] < b[1]; });
+        map<int, int> arrive;
+        int off = trips[0][2];
+        for (vector<int> t : trips)
         {
-            while (p[2] > p[1])
+            while (off <= t[1])
             {
-                if (info.find(p[2]) == info.end())
+                if (capacity < 0)
                 {
-                    info[p[2]] = info.upper_bound(p[2])->second;
-                    info.upper_bound(p[2])->second.first = p[2];
+                    return false;
                 }
-                else
-                {
-                    if (info[p[2]].first < p[1])
-                    {
-                        info[p[1]] = info[p[2]];
-                        info[p[2]].first = p[1];
-                    }
-                    info[p[2]].second += p[0];
-                    required = max(info[p[2]].second, required);
-                    p[2] = info[p[2]].first;
-                }
+                capacity += arrive[off];
+                arrive.erase(off);
+                off = arrive.begin()->second;
             }
+            arrive[t[2]] += t[0];
+            capacity -= t[0];
+            off = min(t[2], off);
         }
-        return required <= capacity;
+        return capacity >= 0;
     }
 };
 // @lc code=end
