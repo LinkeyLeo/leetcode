@@ -5,35 +5,53 @@
  */
 
 // @lc code=start
+class Trie
+{
+public:
+    bool isWord = false;
+    map<char, Trie *> c;
+};
 class Solution
 {
 public:
     bool wordBreak(string s, vector<string> &wordDict)
     {
-        set<int> tried;
-        int length = s.size();
-        queue<int> tocheck({length});
-        int next;
-        while (!tocheck.empty())
+        Trie *root = new Trie();
+        for (string word : wordDict)
         {
-            next = tocheck.front();
-            tocheck.pop();
-            for (string m : wordDict)
+            Trie *node = root;
+            int i = 0;
+            for (char c : word)
             {
-                int mlength = m.size();
-                if (next - mlength > 0)
+                if (node->c[c] == NULL)
                 {
-                    if (s.substr(next - mlength, mlength) == m && tried.find(next - mlength) == tried.end())
-                    {
-                        tried.insert(next-mlength);
-                        tocheck.push(next - mlength);
-                    }
+                    node->c[c] = new Trie();
                 }
-                else if (next - mlength == 0)
+                node = node->c[c];
+            }
+            node->isWord = true;
+        }
+        stack<int> q({0});
+        unordered_set<int> tried({0});
+        while (!q.empty())
+        {
+            int i = q.top();
+            Trie *node = root;
+            q.pop();
+            while (i < s.size() && node->c[s[i]] != NULL)
+            {
+                node = node->c[s[i]];
+                i++;
+                if (node->isWord)
                 {
-                    if (s.substr(0, mlength) == m)
+                    if (i == s.size())
                     {
                         return true;
+                    }
+                    else if (tried.find(i) == tried.end())
+                    {
+                        tried.insert(i);
+                        q.push(i);
                     }
                 }
             }
