@@ -17,25 +17,21 @@ public class Solution
 {
     public void ReorderList(ListNode head)
     {
-        Queue<ListNode> q = new Queue<ListNode>();
-        Stack<ListNode> s = new Stack<ListNode>();
-        int count = 0;
+        List<ListNode> nodes = new List<ListNode>();
         ListNode p = head;
         while (p != null)
         {
-            count++;
-            q.Enqueue(p);
-            s.Push(p);
+            nodes.Add(p);
             p = p.next;
         }
         p = new ListNode(0);
-        for (int i = 0; i < count; i += 2)
+        for (int i = 0; i * 2 < nodes.Count; i++)
         {
-            p.next = q.Dequeue();
+            p.next = nodes[i];
             p = p.next;
-            if (count - i > 1)
+            if (nodes.Count - i > 1)
             {
-                p.next = s.Pop();
+                p.next = nodes[nodes.Count - 1 - i];
                 p = p.next;
             }
         }
