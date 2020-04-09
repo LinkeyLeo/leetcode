@@ -4,7 +4,7 @@
 |     Language     | Easy |Medium| Hard |All |
 |:----------------:|:----:|:----:| :--: |:--:|
 |       C++        | 25/0 | 36/1 |  9/1 |70/2|
-|        C#        |  3/0 |  7/0 |  1/0 |11/0|
+|        C#        |  3/0 |  8/0 |  1/0 |12/0|
 |   **Summary**    | 26/0 | 42/1 | 10/1 |78/2|
 |**Total Problems**| 395  | 717  | 294  |1406|
 
@@ -54,6 +54,7 @@
 | 468|Validate IP Address                                                     |  Medium  |   | ○ |
 | 530|Minimum Absolute Difference in BST                                      |   Easy   | ○ |   |
 | 535|Encode and Decode TinyURL                                               |  Medium  |   | ○ |
+| 537|Complex Number Multiplication                                           |  Medium  |   | ○ |
 | 553|Optimal Division                                                        |  Medium  | ○ |   |
 | 587|Erect the Fence                                                         |   Hard   | ○ |   |
 | 606|Construct String from Binary Tree                                       |   Easy   | ○ |   |
