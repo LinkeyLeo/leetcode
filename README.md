@@ -4,7 +4,7 @@
 |     Language     | Easy |Medium| Hard |All |
 |:----------------:|:----:|:----:| :--: |:--:|
 |       C++        | 25/0 | 36/1 |  9/1 |70/2|
-|        C#        |  2/0 |  7/0 |  1/0 |10/0|
+|        C#        |  3/0 |  7/0 |  1/0 |11/0|
 |   **Summary**    | 26/0 | 42/1 | 10/1 |78/2|
 |**Total Problems**| 395  | 717  | 294  |1406|
 
@@ -63,7 +63,7 @@
 | 665|Non-decreasing Array                                                    |   Easy   | ○ |   |
 | 713|Subarray Product Less Than K                                            |  Medium  |   | ○ |
 | 741|Cherry Pickup                                                           |   Hard   | ○ |   |
-| 783|Minimum Distance Between BST Nodes                                      |   Easy   |   |   |
+| 783|Minimum Distance Between BST Nodes                                      |   Easy   |   | ○ |
 | 788|Rotated Digits                                                          |   Easy   | ○ |   |
 | 810|Chalkboard XOR Game                                                     |   Hard   | ○ |   |
 | 813|Largest Sum of Averages                                                 |  Medium  |   | ○ |
