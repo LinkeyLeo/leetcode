@@ -4,8 +4,8 @@
 |     Language     | Easy |Medium| Hard |All |
 |:----------------:|:----:|:----:| :--: |:--:|
 |       C++        | 25/0 | 36/1 |  9/1 |70/2|
-|        C#        |  4/0 |  8/0 |  1/0 |13/0|
-|   **Summary**    | 27/0 | 44/1 | 10/1 |81/2|
+|        C#        |  4/0 |  9/0 |  1/0 |14/0|
+|   **Summary**    | 27/0 | 45/1 | 10/1 |82/2|
 |**Total Problems**| 396  | 717  | 294  |1407|
 
 ## Detail
@@ -23,6 +23,7 @@
 |  79|Word Search                                                             |  Medium  | ○ |   |
 | 101|Symmetric Tree                                                          |   Easy   | ○ |   |
 | 114|Flatten Binary Tree to Linked List                                      |  Medium  | ○ |   |
+| 120|Triangle                                                                |  Medium  |   | ○ |
 | 129|Sum Root to Leaf Numbers                                                |  Medium  | ○ |   |
 | 133|Clone Graph                                                             |  Medium  | ○ |   |
 | 139|Word Break                                                              |  Medium  | ○ |   |
