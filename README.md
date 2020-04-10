@@ -4,9 +4,9 @@
 |     Language     | Easy |Medium| Hard |All |
 |:----------------:|:----:|:----:| :--: |:--:|
 |       C++        | 25/0 | 36/1 |  9/1 |70/2|
-|        C#        |  3/0 |  8/0 |  1/0 |12/0|
+|        C#        |  4/0 |  8/0 |  1/0 |13/0|
 |   **Summary**    | 27/0 | 44/1 | 10/1 |81/2|
-|**Total Problems**| 395  | 717  | 294  |1406|
+|**Total Problems**| 396  | 717  | 294  |1407|
 
 ## Detail
 |  ID|Name                                                                    |Difficulty|C++|C# |
@@ -59,7 +59,7 @@
 | 587|Erect the Fence                                                         |   Hard   | ○ |   |
 | 606|Construct String from Binary Tree                                       |   Easy   | ○ |   |
 | 617|Merge Two Binary Trees                                                  |   Easy   | ○ |   |
-| 623|Add One Row to Tree                                                     |  Medium  | ○ |   |
+| 623|Add One Row to Tree                                                     |  Medium  | ○ | ○ |
 | 654|Maximum Binary Tree                                                     |  Medium  | ○ |   |
 | 665|Non-decreasing Array                                                    |   Easy   | ○ |   |
 | 713|Subarray Product Less Than K                                            |  Medium  |   | ○ |
