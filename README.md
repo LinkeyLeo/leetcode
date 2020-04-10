@@ -4,8 +4,8 @@
 |     Language     | Easy |Medium| Hard |All |
 |:----------------:|:----:|:----:| :--: |:--:|
 |       C++        | 26/0 | 37/1 |  9/1 |72/2|
-|        C#        |  4/0 |  9/0 |  1/0 |14/0|
-|   **Summary**    | 28/0 | 46/1 | 10/1 |84/2|
+|        C#        |  5/0 |  9/0 |  1/0 |15/0|
+|   **Summary**    | 29/0 | 46/1 | 10/1 |85/2|
 |**Total Problems**| 396  | 717  | 294  |1407|
 
 ## Detail
@@ -91,6 +91,7 @@
 |1011|Capacity To Ship Packages Within D Days                                 |  Medium  |TLE|   |
 |1103|Distribute Candies to People                                            |   Easy   | ○ |   |
 |1111|Maximum Nesting Depth of Two Valid Parentheses Strings                  |  Medium  | ○ |   |
+|1154|Day of the Year                                                         |   Easy   |   | ○ |
 |1227|Airplane Seat Assignment Probability                                    |  Medium  |   | ○ |
 |1233|Remove Sub-Folders from the Filesystem                                  |  Medium  | ○ |   |
 |1292|Maximum Side Length of a Square with Sum Less than or Equal to Threshold|  Medium  | ○ |   |
