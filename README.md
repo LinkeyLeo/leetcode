@@ -3,9 +3,9 @@
 ## Summary
 |     Language     | Easy |Medium| Hard |All |
 |:----------------:|:----:|:----:| :--: |:--:|
-|       C++        | 25/0 | 36/1 |  9/1 |70/2|
+|       C++        | 25/0 | 37/1 |  9/1 |71/2|
 |        C#        |  4/0 |  9/0 |  1/0 |14/0|
-|   **Summary**    | 27/0 | 45/1 | 10/1 |82/2|
+|   **Summary**    | 27/0 | 46/1 | 10/1 |83/2|
 |**Total Problems**| 396  | 717  | 294  |1407|
 
 ## Detail
@@ -53,6 +53,7 @@
 | 460|LFU Cache                                                               |   Hard   | ○ |   |
 | 461|Hamming Distance                                                        |   Easy   | ○ |   |
 | 468|Validate IP Address                                                     |  Medium  |   | ○ |
+| 513|Find Bottom Left Tree Value                                             |  Medium  | ○ |   |
 | 530|Minimum Absolute Difference in BST                                      |   Easy   | ○ |   |
 | 535|Encode and Decode TinyURL                                               |  Medium  |   | ○ |
 | 537|Complex Number Multiplication                                           |  Medium  |   | ○ |
