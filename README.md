@@ -4,8 +4,8 @@
 |     Language     | Easy |Medium| Hard |All |
 |:----------------:|:----:|:----:| :--: |:--:|
 |       C++        | 26/0 | 37/1 |  9/1 |72/2|
-|        C#        |  5/0 |  9/0 |  2/0 |16/0|
-|   **Summary**    | 29/0 | 46/1 | 10/1 |85/2|
+|        C#        |  4/0 | 10/0 |  2/0 |16/0|
+|   **Summary**    | 28/0 | 47/1 | 10/1 |85/2|
 |**Total Problems**| 396  | 717  | 294  |1407|
 
 ## Detail
@@ -22,6 +22,7 @@
 |  59|Spiral Matrix II                                                        |  Medium  | ○ |   |
 |  79|Word Search                                                             |  Medium  | ○ |   |
 | 101|Symmetric Tree                                                          |   Easy   | ○ |   |
+| 107|Binary Tree Level Order Traversal II                                    |   Easy   |   | ○ |
 | 114|Flatten Binary Tree to Linked List                                      |  Medium  | ○ |   |
 | 120|Triangle                                                                |  Medium  |   | ○ |
 | 129|Sum Root to Leaf Numbers                                                |  Medium  | ○ |   |
