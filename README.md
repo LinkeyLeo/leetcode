@@ -4,8 +4,8 @@
 |     Language     | Easy |Medium| Hard |All |
 |:----------------:|:----:|:----:| :--: |:--:|
 |       C++        | 26/0 | 37/1 |  9/1 |72/2|
-|        C#        |  5/0 | 11/0 |  2/0 |18/0|
-|   **Summary**    | 29/0 | 48/1 | 10/1 |87/2|
+|        C#        |  5/0 | 12/0 |  2/0 |19/0|
+|   **Summary**    | 29/0 | 49/1 | 10/1 |88/2|
 |**Total Problems**| 396  | 717  | 294  |1407|
 
 ## Detail
@@ -88,6 +88,7 @@
 | 979|Distribute Coins in Binary Tree                                         |  Medium  | ○ |   |
 | 984|String Without AAA or BBB                                               |  Medium  | ○ |   |
 | 998|Maximum Binary Tree II                                                  |  Medium  |   | ○ |
+|1006|Clumsy Factorial                                                        |  Medium  |   | ○ |
 |1039|Minimum Score Triangulation of Polygon                                  |  Medium  | ○ |   |
 |1094|Car Pooling                                                             |  Medium  | ○ |   |
 |1011|Capacity To Ship Packages Within D Days                                 |  Medium  |TLE|   |
