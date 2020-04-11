@@ -4,7 +4,7 @@
 |     Language     | Easy |Medium| Hard |All |
 |:----------------:|:----:|:----:| :--: |:--:|
 |       C++        | 26/0 | 37/1 |  9/1 |72/2|
-|        C#        |  5/0 |  9/0 |  1/0 |15/0|
+|        C#        |  5/0 |  9/0 |  2/0 |16/0|
 |   **Summary**    | 29/0 | 46/1 | 10/1 |85/2|
 |**Total Problems**| 396  | 717  | 294  |1407|
 
@@ -95,6 +95,6 @@
 |1227|Airplane Seat Assignment Probability                                    |  Medium  |   | ○ |
 |1233|Remove Sub-Folders from the Filesystem                                  |  Medium  | ○ |   |
 |1292|Maximum Side Length of a Square with Sum Less than or Equal to Threshold|  Medium  | ○ |   |
-|1301|Number of Paths with Max Score                                          |   Hard   | ○ |   |
+|1301|Number of Paths with Max Score                                          |   Hard   | ○ | ○ |
 |1337|The K Weakest Rows in a Matrix                                          |   Easy   | ○ |   |
 |1349|Maximum Students Taking Exam                                            |   Hard   | ○ |   |
