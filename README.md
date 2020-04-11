@@ -4,8 +4,8 @@
 |     Language     | Easy |Medium| Hard |All |
 |:----------------:|:----:|:----:| :--: |:--:|
 |       C++        | 26/0 | 37/1 |  9/1 |72/2|
-|        C#        |  5/0 | 10/0 |  2/0 |17/0|
-|   **Summary**    | 29/0 | 47/1 | 10/1 |86/2|
+|        C#        |  5/0 | 11/0 |  2/0 |18/0|
+|   **Summary**    | 29/0 | 48/1 | 10/1 |87/2|
 |**Total Problems**| 396  | 717  | 294  |1407|
 
 ## Detail
@@ -87,6 +87,7 @@
 | 977|Squares of a Sorted Array                                               |   Easy   | ○ |   |
 | 979|Distribute Coins in Binary Tree                                         |  Medium  | ○ |   |
 | 984|String Without AAA or BBB                                               |  Medium  | ○ |   |
+| 998|Maximum Binary Tree II                                                  |  Medium  |   | ○ |
 |1039|Minimum Score Triangulation of Polygon                                  |  Medium  | ○ |   |
 |1094|Car Pooling                                                             |  Medium  | ○ |   |
 |1011|Capacity To Ship Packages Within D Days                                 |  Medium  |TLE|   |
