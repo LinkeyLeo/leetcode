@@ -4,9 +4,9 @@
 |     Language     | Easy |Medium| Hard |All |
 |:----------------:|:----:|:----:| :--: |:--:|
 |       C++        | 26/0 | 37/1 |  9/1 |72/2|
-|        C#        |  5/0 | 12/0 |  2/0 |19/0|
-|   **Summary**    | 29/0 | 49/1 | 10/1 |88/2|
-|**Total Problems**| 396  | 717  | 294  |1407|
+|        C#        |  5/0 | 13/0 |  2/0 |20/0|
+|   **Summary**    | 29/0 | 50/1 | 10/1 |89/2|
+|**Total Problems**| 397  | 719  | 295  |1411|
 
 ## Detail
 |  ID|Name                                                                    |Difficulty|C++|C# |
@@ -68,6 +68,7 @@
 | 713|Subarray Product Less Than K                                            |  Medium  |   | ○ |
 | 741|Cherry Pickup                                                           |   Hard   | ○ |   |
 | 747|Largest Number At Least Twice of Others                                 |   Easy   | ○ |   |
+| 756|Pyramid Transition Matrix                                               |  Medium  |   |   |
 | 783|Minimum Distance Between BST Nodes                                      |   Easy   |   | ○ |
 | 788|Rotated Digits                                                          |   Easy   | ○ |   |
 | 810|Chalkboard XOR Game                                                     |   Hard   | ○ |   |
