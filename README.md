@@ -4,8 +4,8 @@
 |     Language     | Easy |Medium| Hard |All |
 |:----------------:|:----:|:----:| :--: |:--:|
 |       C++        | 26/0 | 37/1 |  9/1 |72/2|
-|        C#        |  5/0 | 13/0 |  2/0 |20/0|
-|   **Summary**    | 29/0 | 50/1 | 10/1 |89/2|
+|        C#        |  5/0 | 13/0 |  3/0 |21/0|
+|   **Summary**    | 29/0 | 50/1 | 11/1 |90/2|
 |**Total Problems**| 397  | 719  | 295  |1411|
 
 ## Detail
@@ -78,6 +78,7 @@
 | 830|Positions of Large Groups                                               |   Easy   | ○ |   |
 | 834|Sum of Distances in Tree                                                |   Hard   | ○ |   |
 | 836|Rectangle Overlap                                                       |   Easy   |   | ○ |
+| 854|K-Similar Strings                                                       |   Hard   |   | ○ |
 | 884|Uncommon Words from Two Sentences                                       |   Easy   | ○ |   |
 | 889|Construct Binary Tree from Preorder and Postorder Traversal             |  Medium  | ○ |   |
 | 893|Groups of Special-Equivalent Strings                                    |   Easy   | ○ |   |
