@@ -4,8 +4,8 @@
 |     Language     | Easy |Medium| Hard |All |
 |:----------------:|:----:|:----:| :--: |:--:|
 |       C++        | 26/0 | 37/1 |  9/1 |72/2|
-|        C#        |  5/0 | 14/0 |  3/0 |22/0|
-|   **Summary**    | 29/0 | 51/1 | 11/1 |91/2|
+|        C#        |  5/0 | 15/0 |  3/0 |23/0|
+|   **Summary**    | 29/0 | 52/1 | 11/1 |92/2|
 |**Total Problems**| 397  | 719  | 295  |1411|
 
 ## Detail
@@ -24,6 +24,7 @@
 | 101|Symmetric Tree                                                          |   Easy   | ○ |   |
 | 107|Binary Tree Level Order Traversal II                                    |   Easy   |   | ○ |
 | 114|Flatten Binary Tree to Linked List                                      |  Medium  | ○ |   |
+| 117|Populating Next Right Pointers in Each Node II                          |  Medium  |   | ○ |
 | 120|Triangle                                                                |  Medium  |   | ○ |
 | 129|Sum Root to Leaf Numbers                                                |  Medium  | ○ |   |
 | 133|Clone Graph                                                             |  Medium  | ○ |   |
