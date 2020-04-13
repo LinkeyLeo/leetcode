@@ -4,8 +4,8 @@
 |     Language     | Easy |Medium| Hard |All |
 |:----------------:|:----:|:----:| :--: |:--:|
 |       C++        | 26/0 | 37/1 |  9/1 |72/2|
-|        C#        |  5/0 | 13/0 |  3/0 |21/0|
-|   **Summary**    | 29/0 | 50/1 | 11/1 |90/2|
+|        C#        |  5/0 | 14/0 |  3/0 |22/0|
+|   **Summary**    | 29/0 | 51/1 | 11/1 |91/2|
 |**Total Problems**| 397  | 719  | 295  |1411|
 
 ## Detail
@@ -68,7 +68,8 @@
 | 713|Subarray Product Less Than K                                            |  Medium  |   | ○ |
 | 741|Cherry Pickup                                                           |   Hard   | ○ |   |
 | 747|Largest Number At Least Twice of Others                                 |   Easy   | ○ |   |
-| 756|Pyramid Transition Matrix                                               |  Medium  |   |   |
+| 756|Pyramid Transition Matrix                                               |  Medium  |   | ○ |
+| 777|Swap Adjacent in LR String                                              |  Medium  |   | ○ |
 | 783|Minimum Distance Between BST Nodes                                      |   Easy   |   | ○ |
 | 788|Rotated Digits                                                          |   Easy   | ○ |   |
 | 810|Chalkboard XOR Game                                                     |   Hard   | ○ |   |
