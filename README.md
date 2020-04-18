@@ -4,9 +4,9 @@
 |     Language     | Easy |Medium| Hard |All |
 |:----------------:|:----:|:----:| :--: |:--:|
 |       C++        | 26/0 | 37/1 |  9/1 |72/2|
-|        C#        |  5/0 | 15/0 |  3/0 |23/0|
-|   **Summary**    | 29/0 | 52/1 | 11/1 |92/2|
-|**Total Problems**| 397  | 719  | 295  |1411|
+|        C#        |  5/0 | 16/0 |  3/0 |24/0|
+|   **Summary**    | 29/0 | 53/1 | 11/1 |93/2|
+|**Total Problems**| 397  | 719  | 296  |1412|
 
 ## Detail
 |  ID|Name                                                                    |Difficulty|C++|C# |
@@ -20,6 +20,7 @@
 |  27|Remove Element                                                          |   Easy   | ○ |   |
 |  36|Valid Sudoku                                                            |  Medium  | ○ |   |
 |  59|Spiral Matrix II                                                        |  Medium  | ○ |   |
+|  75|Sort Colors                                                             |  Medium  |   | ○ |
 |  79|Word Search                                                             |  Medium  | ○ |   |
 | 101|Symmetric Tree                                                          |   Easy   | ○ |   |
 | 107|Binary Tree Level Order Traversal II                                    |   Easy   |   | ○ |
