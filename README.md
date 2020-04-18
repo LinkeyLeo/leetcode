@@ -3,9 +3,9 @@
 ## Summary
 |     Language     | Easy |Medium| Hard |All |
 |:----------------:|:----:|:----:| :--: |:--:|
-|       C++        | 26/0 | 37/1 |  9/1 |72/2|
+|       C++        | 26/0 | 37/1 | 10/1 |73/2|
 |        C#        |  5/0 | 16/0 |  3/0 |24/0|
-|   **Summary**    | 29/0 | 53/1 | 11/1 |93/2|
+|   **Summary**    | 29/0 | 53/1 | 12/1 |94/2|
 |**Total Problems**| 397  | 719  | 296  |1412|
 
 ## Detail
@@ -19,6 +19,7 @@
 |  25|Reverse Nodes in k-Group                                                |   Hard   | ○ |   |
 |  27|Remove Element                                                          |   Easy   | ○ |   |
 |  36|Valid Sudoku                                                            |  Medium  | ○ |   |
+|  42|Trapping Rain Water                                                     |   Hard   | ○ |   |
 |  59|Spiral Matrix II                                                        |  Medium  | ○ |   |
 |  75|Sort Colors                                                             |  Medium  |   | ○ |
 |  79|Word Search                                                             |  Medium  | ○ |   |
