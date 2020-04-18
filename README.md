@@ -3,9 +3,9 @@
 ## Summary
 |     Language     | Easy |Medium| Hard |All |
 |:----------------:|:----:|:----:| :--: |:--:|
-|       C++        | 26/0 | 37/1 | 10/1 |73/2|
+|       C++        | 26/0 | 37/1 | 11/1 |74/2|
 |        C#        |  5/0 | 16/0 |  3/0 |24/0|
-|   **Summary**    | 29/0 | 53/1 | 12/1 |94/2|
+|   **Summary**    | 29/0 | 53/1 | 13/1 |95/2|
 |**Total Problems**| 397  | 719  | 296  |1412|
 
 ## Detail
@@ -34,6 +34,7 @@
 | 143|Reorder List                                                            |  Medium  |   | ○ |
 | 153|Find Minimum in Rotated Sorted Array                                    |  Medium  | ○ |   |
 | 154|Find Minimum in Rotated Sorted Array II                                 |   Hard   |   | ○ |
+| 164|Maximum Gap                                                             |   Hard   | ○ |   |
 | 169|Majority Element                                                        |   Easy   | ○ |   |
 | 211|Add and Search Word - Data structure design                             |  Medium  | ○ |   |
 | 216|Combination Sum III                                                     |  Medium  | ○ |   |
