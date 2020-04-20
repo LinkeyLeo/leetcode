@@ -3,10 +3,10 @@
 ## Summary
 |     Language     | Easy |Medium| Hard |All |
 |:----------------:|:----:|:----:| :--: |:--:|
-|       C++        | 26/0 | 37/1 | 11/1 |74/2|
+|       C++        | 27/0 | 37/1 | 11/1 |75/2|
 |        C#        |  5/0 | 16/0 |  3/0 |24/0|
-|   **Summary**    | 29/0 | 53/1 | 13/1 |95/2|
-|**Total Problems**| 397  | 719  | 296  |1412|
+|   **Summary**    | 30/0 | 53/1 | 13/1 |96/2|
+|**Total Problems**| 399  | 723  | 298  |1420|
 
 ## Detail
 |  ID|Name                                                                    |Difficulty|C++|C# |
@@ -80,6 +80,7 @@
 | 813|Largest Sum of Averages                                                 |  Medium  |   | ○ |
 | 814|Binary Tree Pruning                                                     |  Medium  | ○ |   |
 | 815|Bus Route                                                               |   Hard   |TLE|   |
+| 824|Goat Latin                                                              |   Easy   | ○ |   |
 | 830|Positions of Large Groups                                               |   Easy   | ○ |   |
 | 834|Sum of Distances in Tree                                                |   Hard   | ○ |   |
 | 836|Rectangle Overlap                                                       |   Easy   |   | ○ |
