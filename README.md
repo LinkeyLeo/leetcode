@@ -4,7 +4,7 @@
 |     Language     | Easy |Medium| Hard |All |
 |:----------------:|:----:|:----:| :--: |:--:|
 |       C++        | 27/0 | 37/1 | 12/1 |76/2|
-|        C#        |  5/0 | 16/0 |  3/0 |24/0|
+|        C#        |  5/0 | 16/0 |  4/0 |25/0|
 |   **Summary**    | 30/0 | 53/1 | 14/1 |97/2|
 |**Total Problems**| 405  | 737  | 302  |1444|
 
@@ -19,7 +19,7 @@
 |  25|Reverse Nodes in k-Group                                                |   Hard   | ○ |   |
 |  27|Remove Element                                                          |   Easy   | ○ |   |
 |  36|Valid Sudoku                                                            |  Medium  | ○ |   |
-|  42|Trapping Rain Water                                                     |   Hard   | ○ |   |
+|  42|Trapping Rain Water                                                     |   Hard   | ○ | ○ |
 |  59|Spiral Matrix II                                                        |  Medium  | ○ |   |
 |  75|Sort Colors                                                             |  Medium  |   | ○ |
 |  79|Word Search                                                             |  Medium  | ○ |   |
