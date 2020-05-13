@@ -4,8 +4,8 @@
 |     Language     | Easy |Medium| Hard |All |
 |:----------------:|:----:|:----:| :--: |:--:|
 |       C++        | 27/0 | 37/1 | 12/1 |76/2|
-|        C#        |  5/0 | 16/0 |  4/1 |25/1|
-|   **Summary**    | 30/0 | 53/1 | 14/2 |97/3|
+|        C#        |  5/0 | 16/0 |  5/0 |26/0|
+|   **Summary**    | 30/0 | 53/1 | 15/1 |98/2|
 |**Total Problems**| 405  | 737  | 302  |1444|
 
 ## Detail
@@ -82,7 +82,7 @@
 | 814|Binary Tree Pruning                                                     |  Medium  | ○ |   |
 | 815|Bus Route                                                               |   Hard   |TLE|   |
 | 824|Goat Latin                                                              |   Easy   | ○ |   |
-| 828|Count Unique Characters of All Substrings of a Given String             |   Hard   |   |TLE|
+| 828|Count Unique Characters of All Substrings of a Given String             |   Hard   |   | ○ |
 | 830|Positions of Large Groups                                               |   Easy   | ○ |   |
 | 834|Sum of Distances in Tree                                                |   Hard   | ○ |   |
 | 836|Rectangle Overlap                                                       |   Easy   |   | ○ |
