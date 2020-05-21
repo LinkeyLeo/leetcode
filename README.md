@@ -3,10 +3,10 @@
 ## Summary
 |     Language     | Easy |Medium| Hard |All |
 |:----------------:|:----:|:----:| :--: |:--:|
-|       C++        | 27/0 | 37/1 | 12/1 |76/2|
+|       C++        | 27/0 | 38/1 | 12/1 |77/2|
 |        C#        |  5/0 | 16/0 |  5/0 |26/0|
-|   **Summary**    | 30/0 | 53/1 | 15/1 |98/2|
-|**Total Problems**| 407  | 743  | 304  |1454|
+|   **Summary**    | 30/0 | 54/1 | 15/1 |99/2|
+|**Total Problems**|  407 |  743 |  304 |1454|
 
 ## Detail
 |  ID|Name                                                                    |Difficulty|C++|C# |
@@ -70,6 +70,7 @@
 | 623|Add One Row to Tree                                                     |  Medium  | ○ | ○ |
 | 654|Maximum Binary Tree                                                     |  Medium  | ○ |   |
 | 665|Non-decreasing Array                                                    |   Easy   | ○ |   |
+| 667|Beautiful Arrangement II                                                |  Medium  | ○ |   |
 | 713|Subarray Product Less Than K                                            |  Medium  |   | ○ |
 | 741|Cherry Pickup                                                           |   Hard   | ○ |   |
 | 747|Largest Number At Least Twice of Others                                 |   Easy   | ○ |   |
