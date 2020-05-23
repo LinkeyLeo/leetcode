@@ -4,8 +4,8 @@
 |     Language     | Easy |Medium| Hard | All |
 |:----------------:|:----:|:----:| :--: |:---:|
 |       C++        | 27/0 | 38/1 | 12/1 | 77/2|
-|        C#        |  5/0 | 16/0 |  6/0 | 27/0|
-|   **Summary**    | 30/0 | 54/1 | 16/1 |100/2|
+|        C#        |  5/0 | 17/0 |  6/0 | 28/0|
+|   **Summary**    | 30/0 | 55/1 | 16/1 |101/2|
 |**Total Problems**|  407 |  743 |  304 | 1454|
 
 ## Detail
@@ -113,3 +113,4 @@
 |1301|Number of Paths with Max Score                                          |   Hard   | ○ | ○ |
 |1337|The K Weakest Rows in a Matrix                                          |   Easy   | ○ |   |
 |1349|Maximum Students Taking Exam                                            |   Hard   | ○ |   |
+|1424|Diagonal Traverse II                                                    |  Medium  |   | ○ |
